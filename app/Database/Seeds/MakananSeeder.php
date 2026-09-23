@@ -1,0 +1,121 @@
+<?php
+
+namespace App\Database\Seeds;
+
+use CodeIgniter\Database\Seeder;
+
+class MakananSeeder extends Seeder
+{
+    public function run()
+    {
+        $data = [
+            [
+                'nama'          => "Se'i Sapi Sambal Lu'at Khas NTT",
+                'slug'          => 'sei-sapi-sambal-luat-khas-ntt',
+                'kategori'      => "Se'i Sapi",
+                'deskripsi'     => "Daging sapi asap khas Kupang yang diasap tradisional dengan kayu dan daun kesambi, disajikan dengan Sambal Lu'at beraroma jeruk nipis dan daun sapan yang segar pedas otentik.",
+                'harga'         => 42000,
+                'berat'         => 200,
+                'tingkat_pedas' => 4,
+                'rating'        => 4.9,
+                'terjual'       => 1250,
+                'gambar'        => 'sei-luat.jpg',
+                'status'        => 'tersedia',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s'),
+            ],
+            [
+                'nama'          => "Se'i Sapi Original Asap Kesambi",
+                'slug'          => 'sei-sapi-original-asap-kesambi',
+                'kategori'      => "Se'i Sapi",
+                'deskripsi'     => "Daging se'i sapi murni tanpa sambal, menonjolkan aroma asap khas kayu kesambi NTT yang meresap hingga ke serat terdalam. Daging lembut, juicy, dan gurih alami.",
+                'harga'         => 39000,
+                'berat'         => 200,
+                'tingkat_pedas' => 1,
+                'rating'        => 4.8,
+                'terjual'       => 980,
+                'gambar'        => 'sei-original.jpg',
+                'status'        => 'tersedia',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s'),
+            ],
+            [
+                'nama'          => "Se'i Sapi Sambal Matah Kecombrang",
+                'slug'          => 'sei-sapi-sambal-matah-kecombrang',
+                'kategori'      => "Se'i Sapi",
+                'deskripsi'     => "Perpaduan gurih asap daging se'i sapi NTT dengan sambal matah rempah bunga kecombrang yang harum, renyah, dan menyegarkan.",
+                'harga'         => 45000,
+                'berat'         => 200,
+                'tingkat_pedas' => 3,
+                'rating'        => 4.7,
+                'terjual'       => 840,
+                'gambar'        => 'sei-matah.jpg',
+                'status'        => 'tersedia',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s'),
+            ],
+            [
+                'nama'          => "Paket Sultan Se'i Sapi + Nasi Jagung & Rumpu Rampe",
+                'slug'          => 'paket-sultan-sei-sapi-nasi-jagung',
+                'kategori'      => 'Paket Lengkap',
+                'deskripsi'     => "Paket istimewa khas Nusa Tenggara Timur: Se'i Sapi pilihan, disajikan dengan Nasi Jagung pulen, sayur bunga pepaya (Rumpu Rampe), kuah kaldu sapi gurih, dan Sambal Lu'at.",
+                'harga'         => 55000,
+                'berat'         => 350,
+                'tingkat_pedas' => 4,
+                'rating'        => 4.95,
+                'terjual'       => 1520,
+                'gambar'        => 'paket-sultan.jpg',
+                'status'        => 'tersedia',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s'),
+            ],
+            [
+                'nama'          => "Se'i Sapi Sambal Rica Membara",
+                'slug'          => 'sei-sapi-sambal-rica-membara',
+                'kategori'      => "Se'i Sapi",
+                'deskripsi'     => "Untuk pecinta pedas ekstrem! Daging se'i sapi smoky berpadu dengan tumisan sambal rica cabai rawit merah pedas mantap.",
+                'harga'         => 44000,
+                'berat'         => 200,
+                'tingkat_pedas' => 5,
+                'rating'        => 4.6,
+                'terjual'       => 670,
+                'gambar'        => 'sei-rica.jpg',
+                'status'        => 'tersedia',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s'),
+            ],
+            [
+                'nama'          => "Se'i Sapi Frozen Vacuum Pack 250gr",
+                'slug'          => 'sei-sapi-frozen-vacuum-pack-250gr',
+                'kategori'      => 'Frozen Pack',
+                'deskripsi'     => "Se'i Sapi matang siap santap dalam kemasan vacuum kedap udara, tahan hingga 3 bulan di freezer. Sudah termasuk 1 cup Sambal Lu'at Kupang gratis.",
+                'harga'         => 85000,
+                'berat'         => 250,
+                'tingkat_pedas' => 2,
+                'rating'        => 4.9,
+                'terjual'       => 2100,
+                'gambar'        => 'sei-frozen-250.jpg',
+                'status'        => 'tersedia',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s'),
+            ],
+            [
+                'nama'          => "Se'i Sapi Platter Jumbo 500gr (Family Size)",
+                'slug'          => 'sei-sapi-platter-jumbo-500gr',
+                'kategori'      => 'Porsi Besar',
+                'deskripsi'     => "Porsi keluarga besar 500 gram daging se'i sapi asap asli NTT lengkap dengan 3 varian sambal: Sambal Lu'at, Sambal Matah, dan Sambal Ijo.",
+                'harga'         => 160000,
+                'berat'         => 500,
+                'tingkat_pedas' => 3,
+                'rating'        => 4.92,
+                'terjual'       => 430,
+                'gambar'        => 'sei-jumbo-500.jpg',
+                'status'        => 'tersedia',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s'),
+            ],
+        ];
+
+        $this->db->table('makanan')->insertBatch($data);
+    }
+}
