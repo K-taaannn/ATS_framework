@@ -88,8 +88,8 @@
 
                         <!-- Card Hero Image Representation -->
                         <div class="mt-5 relative h-56 rounded-2xl overflow-hidden bg-slate-900 border border-cyan-500/20 flex flex-col justify-end p-5">
-                            <div class="absolute inset-0 bg-cover bg-center opacity-70 mix-blend-overlay" style="background-image: url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80');"></div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-[#05111F] via-[#05111F]/40 to-transparent"></div>
+                            <div class="absolute inset-0 bg-cover bg-center opacity-85" style="background-image: url('<?= base_url('uploads/makanan/sei-luat.jpg') ?>');"></div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#05111F] via-[#05111F]/50 to-transparent"></div>
                             
                             <div class="relative z-10 space-y-1">
                                 <span class="px-2.5 py-0.5 rounded-md text-[10px] uppercase font-bold tracking-wider bg-brand-cyan text-brand-navy">
